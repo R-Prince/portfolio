@@ -12,40 +12,56 @@
 </head>
 <body>
     <!--Navbar-->
-    <section class="container">
-        <nav class="navbar navbar-expand-sm">
+    <section id="navbar">
+        <nav class="navbar navbar-expand-sm container-fluid">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarList">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-link nav-title" href="#portfolio">Rene Prince</a>
                     <a class="nav-link" href="#about">About</a>
                     <a class="nav-link" href="#contact">Contact</a>
                 </div>
-            </div>  
-        </nav>
-    </section>
-    <!--Section: Hero-->
-    <section class="container">
-        <div class="col-10">
-            <h1>Hello, I'm Rene Prince and I'm a Full Stack Web Developer</h1>
-            <hr>
-            <button type="button" class="btn btn-primary">View my portfolio</button>
-        </div>
+            </div>
+        </nav> 
     </section>
     <!--Section: Portfolio-->
-    <section class="container" id="portfolio">
+    <section class="container-fluid" id="portfolio">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12">
                 <h2 class="section-header">Portfolio</h2>
             </div>
         </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <a href="https://r-prince.github.io/Eagle-Fitness/" target="_blank">
+                        <img class="img-fluid" src="assets/images/eagleFitness.png" alt="">
+                    </a>
+                    <h3 class="project-title">Eagle Fitness</h3>
+                    <p class="project-description">A fitness website for a local gym in wembley. Technologies used: HTML CSS JS BOOTSTRAP JQUERY</p>
+                    <ul class="list-unstyled">
+                        <li><a class="social-links" href="https://github.com/R-Prince/Eagle-Fitness" target="_blank"><i class="fab fa-github"></i> Github</a></li>
+                        <li><a class="social-links" href="https://r-prince.github.io/Eagle-Fitness/" target="_blank"><i class="fas fa-cloud"></i> Visit the Website</a></li>
+                    </ul> 
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="https://r-prince.github.io/TravelTime/" target="_blank">
+                        <img class="img-fluid" src="assets/images/travelTime.png" alt="">
+                    </a>
+                    <h3 class="project-title">Travel Time</h3>
+                    <p class="project-description">A holiday destination website which allows users to search for their next holiday using the google place/map API. Technologies used: HTML CSS JS BOOTSTRAP JQUERY</p>
+                    <ul class="list-unstyled">
+                        <li><a class="social-links" href="https://github.com/R-Prince/TravelTime" target="_blank"><i class="fab fa-github"></i> Github</a></li>
+                        <li><a class="social-links" href="https://r-prince.github.io/TravelTime/" target="_blank"><i class="fas fa-cloud"></i> Visit the Website</a></li>
+                    </ul> 
+                </div>
+            </div>
     </section>
     <!--Section: About-->
     <section class="container" id="about">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12">
                 <h2 class="section-header">About</h2>
             </div>
         </div>
@@ -53,7 +69,7 @@
     <!--Section: Contact-->
     <section class="container" id="contact">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12">
                 <h2 class="section-header">Contact</h2>
             </div>
         </div>

@@ -1,5 +1,31 @@
+body{
+    background-color: #F2F2F2;
+}
+
 /* Headers */
 .section-header{
-    margin: 3rem;
-    text-transform: uppercase;
+    margin: 2rem 0 2rem 0;
+    color: #0D0D0D;
+}
+
+/*Section: Navbar*/
+.nav-link{
+    color: #0D0D0D;
+}
+
+.nav-title{
+    text-decoration: underline solid red;
+}
+
+/*Section: Portfolio*/
+.social-links{
+    color: #0D0D0D;
+}
+
+.project-title{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.project-description{
+    margin: 0.5rem 0 0.5rem 0;
 }
